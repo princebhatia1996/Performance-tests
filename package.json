@@ -1,0 +1,19 @@
+{
+  "name": "performance-tests",
+  "version": "1.0.0",
+  "description": "Performance test examples with K6",
+  "main": "index.js",
+  "scripts": {
+    "test:get-crocodiles": "k6 run ./src/load/get-crocodiles.js",
+    "test:get-crocodile": "k6 run ./src/load/get-crocodile.js",
+    "test:all": "npm run test:get-crocodiles && npm run test:get-crocodile"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/k6": "^0.54.2",
+    "k6": "^0.0.0",
+    "typescript": "^5.7.3"
+  }
+}
