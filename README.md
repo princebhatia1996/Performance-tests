@@ -38,7 +38,7 @@
   It simulates multiple users accessing the application at the same time to see how well the system handles the load.
   This helps identify any performance issues, measure response times, and ensure the application can manage the anticipated user traffic effectively.
 
-### Stress testing
+### Stress testing TODO
 
 - Stress testing checks how an application behaves under extreme conditions that are beyond normal usage.
   It involves testing the application by putting it under heavy workloads, high data volumes, or limited resources.
